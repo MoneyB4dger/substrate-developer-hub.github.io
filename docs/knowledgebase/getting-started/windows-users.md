@@ -33,6 +33,7 @@ If you are trying to set up a Windows computer to build Substrate, do the follow
    rustup update nightly
    rustup update stable
    rustup target add wasm32-unknown-unknown --toolchain nightly
+   rustup +nightly component add rust-src
    ```
 
 4. Install LLVM: https://releases.llvm.org/download.html
